@@ -1,0 +1,4 @@
+Sprite:
+Boss_1.png
+Comportement:
+L:1|

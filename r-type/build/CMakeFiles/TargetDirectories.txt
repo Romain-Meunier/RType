@@ -1,0 +1,7 @@
+/Users/romain/Desktop/B-CPP-500-MAR-5-1-rtype-claire.cival/r-type/build/CMakeFiles/r-type_server.dir
+/Users/romain/Desktop/B-CPP-500-MAR-5-1-rtype-claire.cival/r-type/build/CMakeFiles/r-type_client.dir
+/Users/romain/Desktop/B-CPP-500-MAR-5-1-rtype-claire.cival/r-type/build/CMakeFiles/edit_cache.dir
+/Users/romain/Desktop/B-CPP-500-MAR-5-1-rtype-claire.cival/r-type/build/CMakeFiles/rebuild_cache.dir
+/Users/romain/Desktop/B-CPP-500-MAR-5-1-rtype-claire.cival/r-type/build/libgameengine_build/CMakeFiles/gameengine.dir
+/Users/romain/Desktop/B-CPP-500-MAR-5-1-rtype-claire.cival/r-type/build/libgameengine_build/CMakeFiles/edit_cache.dir
+/Users/romain/Desktop/B-CPP-500-MAR-5-1-rtype-claire.cival/r-type/build/libgameengine_build/CMakeFiles/rebuild_cache.dir

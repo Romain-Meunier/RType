@@ -1,0 +1,83 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=14
+    os=Macos
+
+[requires]
+    asio/1.Y.Z
+    lz4/1.Y.Z
+    sfml/2.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=14
+    os=Macos
+    os_build=Macos
+
+[full_requires]
+    asio/1.23.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    brotli/1.0.9:6841fe8f0f22f6fa260da36a43a94ab525c7ed8d
+    bzip2/1.0.8:4d994402bb6d6e8babdc89ce439cd1a0ab9877cd
+    flac/1.3.3:4c6484059d066dc4698173f599005cebec57716c
+    freetype/2.11.1:49278f7996dbd75ce7c06a237252abe3e4714b93
+    libpng/1.6.38:fac17448c369122c8006fef998b64a6c26bb4b9a
+    lz4/1.9.4:6841fe8f0f22f6fa260da36a43a94ab525c7ed8d
+    ogg/1.3.5:6841fe8f0f22f6fa260da36a43a94ab525c7ed8d
+    openal/1.21.1:3782cb8c3754bcc4f0ca2283b503d86479835458
+    opengl/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    sfml/2.5.1:5a42aecaf16217ce11368760d1aea911b98cf04c
+    stb/cci.20210910:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    vorbis/1.3.7:1c921b11e01f0da89cfd2df7b52bb61ac1cd9e02
+    zlib/1.2.12:6841fe8f0f22f6fa260da36a43a94ab525c7ed8d
+
+[full_options]
+    brotli:fPIC=True
+    brotli:shared=False
+    bzip2:build_executable=True
+    bzip2:fPIC=True
+    bzip2:shared=False
+    flac:fPIC=True
+    flac:shared=False
+    freetype:fPIC=True
+    freetype:shared=False
+    freetype:subpixel=False
+    freetype:with_brotli=True
+    freetype:with_bzip2=True
+    freetype:with_png=True
+    freetype:with_zlib=True
+    libpng:api_prefix=
+    libpng:fPIC=True
+    libpng:shared=False
+    libpng:sse=True
+    lz4:fPIC=True
+    lz4:shared=False
+    ogg:fPIC=True
+    ogg:shared=False
+    openal:fPIC=True
+    openal:shared=False
+    sfml:audio=True
+    sfml:graphics=True
+    sfml:network=True
+    sfml:shared=True
+    sfml:window=True
+    stb:with_deprecated=True
+    vorbis:fPIC=True
+    vorbis:shared=False
+    zlib:fPIC=True
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+

@@ -1,0 +1,140 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "brotli:fPIC=True\nbrotli:shared=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nflac:fPIC=True\nflac:shared=False\nfreetype:fPIC=True\nfreetype:shared=False\nfreetype:subpixel=False\nfreetype:with_brotli=True\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nlibpng:api_prefix=\nlibpng:fPIC=True\nlibpng:shared=False\nlibpng:sse=True\nlz4:fPIC=True\nlz4:shared=False\nogg:fPIC=True\nogg:shared=False\nopenal:fPIC=True\nopenal:shared=False\nsfml:audio=True\nsfml:graphics=True\nsfml:network=True\nsfml:shared=True\nsfml:window=True\nstb:with_deprecated=True\nvorbis:fPIC=True\nvorbis:shared=False\nzlib:fPIC=True\nzlib:shared=False",
+    "requires": [
+     "1",
+     "2",
+     "14"
+    ],
+    "path": "../scripts/conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "asio/1.23.0#655ac3b5e9ddc9a62f9ce4f20a1ff0a2",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "6c3df6bcb8f1b66d0a951a9e1e0ea7d1",
+    "context": "host"
+   },
+   "2": {
+    "ref": "sfml/2.5.1#ae246351eaebf917199e2cd9065391cc",
+    "options": "audio=True\ngraphics=True\nnetwork=True\nshared=True\nwindow=True\nbrotli:fPIC=True\nbrotli:shared=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nflac:fPIC=True\nflac:shared=False\nfreetype:fPIC=True\nfreetype:shared=False\nfreetype:subpixel=False\nfreetype:with_brotli=True\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nlibpng:api_prefix=\nlibpng:fPIC=True\nlibpng:shared=False\nlibpng:sse=True\nogg:fPIC=True\nogg:shared=False\nopenal:fPIC=True\nopenal:shared=False\nstb:with_deprecated=True\nvorbis:fPIC=True\nvorbis:shared=False\nzlib:fPIC=True\nzlib:shared=False",
+    "package_id": "5a42aecaf16217ce11368760d1aea911b98cf04c",
+    "prev": "aa9d8c7e889fb2356bf55d7a6add99aa",
+    "requires": [
+     "3",
+     "4",
+     "9",
+     "10",
+     "12",
+     "13"
+    ],
+    "context": "host"
+   },
+   "3": {
+    "ref": "opengl/system#3582b5d3184289461f73339622c71d31",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "6a08175abca65cacf59e09643250fe50",
+    "context": "host"
+   },
+   "4": {
+    "ref": "freetype/2.11.1#fabd8bc0e82b5e6ecb4eee7788d3194f",
+    "options": "fPIC=True\nshared=False\nsubpixel=False\nwith_brotli=True\nwith_bzip2=True\nwith_png=True\nwith_zlib=True\nbrotli:fPIC=True\nbrotli:shared=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlibpng:api_prefix=\nlibpng:fPIC=True\nlibpng:shared=False\nlibpng:sse=True\nzlib:fPIC=True\nzlib:shared=False",
+    "package_id": "49278f7996dbd75ce7c06a237252abe3e4714b93",
+    "prev": "93cc930e500b31e751122f6246804746",
+    "requires": [
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "context": "host"
+   },
+   "5": {
+    "ref": "libpng/1.6.38#9ba771fa0c71dd012bfab19ced38920a",
+    "options": "api_prefix=\nfPIC=True\nshared=False\nsse=True\nzlib:fPIC=True\nzlib:shared=False",
+    "package_id": "fac17448c369122c8006fef998b64a6c26bb4b9a",
+    "prev": "85ce1f0b8f22ae8c3d717815918321e0",
+    "requires": [
+     "6"
+    ],
+    "context": "host"
+   },
+   "6": {
+    "ref": "zlib/1.2.12#c2cd5ec484e443e4f01b51ff5370fd11",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "6841fe8f0f22f6fa260da36a43a94ab525c7ed8d",
+    "prev": "a3d6fb4e95a2bba0fcfe53d6b789820b",
+    "context": "host"
+   },
+   "7": {
+    "ref": "bzip2/1.0.8#9c8b632000a52af5af3f045d3a6db12f",
+    "options": "build_executable=True\nfPIC=True\nshared=False",
+    "package_id": "4d994402bb6d6e8babdc89ce439cd1a0ab9877cd",
+    "prev": "6a823cf279dc4d0fc2f5dd8ad1a75101",
+    "context": "host"
+   },
+   "8": {
+    "ref": "brotli/1.0.9#802b2457f7a7a509ed80e7e45adf960e",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "6841fe8f0f22f6fa260da36a43a94ab525c7ed8d",
+    "prev": "e57131803d747e504c7cbd5ea57c50e0",
+    "context": "host"
+   },
+   "9": {
+    "ref": "stb/cci.20210910#0f04e2f9cff8a99aa8602452e2dafda6",
+    "options": "with_deprecated=True",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "2652efe6fa5cdf90f66b5a193aad22fd",
+    "context": "host"
+   },
+   "10": {
+    "ref": "flac/1.3.3#203bd3b8dea9eb42eff4783e9104560a",
+    "options": "fPIC=True\nshared=False\nogg:fPIC=True\nogg:shared=False",
+    "package_id": "4c6484059d066dc4698173f599005cebec57716c",
+    "prev": "e8f93fa0f16dfeb834d14a20c321465c",
+    "requires": [
+     "11"
+    ],
+    "context": "host"
+   },
+   "11": {
+    "ref": "ogg/1.3.5#1fd1211e20186ca5ff5ba927fb0989ee",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "6841fe8f0f22f6fa260da36a43a94ab525c7ed8d",
+    "prev": "a70afb4ef8bafab88d43b2f7db96575c",
+    "context": "host"
+   },
+   "12": {
+    "ref": "openal/1.21.1#9b48022bcd95a582d0569c42ecf74dcd",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "3782cb8c3754bcc4f0ca2283b503d86479835458",
+    "prev": "366ced47e044f1e58b59e9df81f034ea",
+    "context": "host"
+   },
+   "13": {
+    "ref": "vorbis/1.3.7#1e562aee5f966ff1ff1de9c8a5415140",
+    "options": "fPIC=True\nshared=False\nogg:fPIC=True\nogg:shared=False",
+    "package_id": "1c921b11e01f0da89cfd2df7b52bb61ac1cd9e02",
+    "prev": "c957dacdaf661df27440a40e76e1b398",
+    "requires": [
+     "11"
+    ],
+    "context": "host"
+   },
+   "14": {
+    "ref": "lz4/1.9.4#8699136f62681eeba3dc033f85cc63e2",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "6841fe8f0f22f6fa260da36a43a94ab525c7ed8d",
+    "prev": "dfefa882fd405791b9edefa5ca57f586",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=14\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n[env]\n"
+}

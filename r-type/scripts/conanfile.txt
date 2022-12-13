@@ -1,0 +1,18 @@
+[requires]                      #Liste des dépendances requises pour le projet, dans le cas présent nous avons besoin d'asio et de la sfml pour le moment.
+asio/1.23.0                     #NomDependance/Version
+sfml/2.5.1
+lz4/1.9.4
+
+[options]                       #Configuration de certaines valeurs des packages a l'échelle du projet afin qu'ils ne puissent pas avoir de valeur pas défaut.
+*:shared=False                  #Package:Option=Value -> sfml était par défaut en statique, nous la mettons maintenant en dynamique
+sfml:shared=True
+sfml:window=True
+sfml:graphics=True
+
+[imports]                       #Les bibliothèques partagées doivent être situéesdans un dossier o`u elles peuvent être trouvées par l'environnement.
+bin, *.dll -> ./bin             # libs (windows)   : On copie tout les fichiers dll du dossier bin des packages vers notre dossier bin, pareil pour le reste.
+lib, *.so* -> ./bin             # libs (linux)
+lib, *.dylib* -> ./bin          # libs  (mac)
+
+[generators]
+cmake
